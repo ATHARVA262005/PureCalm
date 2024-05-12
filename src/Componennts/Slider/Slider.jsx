@@ -36,7 +36,7 @@ const Sliders = [
 function Slider() {
   return (
     <div>
-      <Carousel className='carous' interval={1000}>
+      <Carousel className='carous w-100'  interval={1000}>
       {Sliders.map((Sliders) => (
 
           <Carousel.Item key={Sliders.id} className='slides'>
