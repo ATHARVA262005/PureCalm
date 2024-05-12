@@ -8,15 +8,15 @@ function ContactUs() {
   return (
 <HelmetProvider>
 <Helmet>
-        <title>My Page Title</title>
+        <title>ContactUs</title>
         <meta name="description" content="This is the meta description for My Page." />
       </Helmet>
       
     <Navb />
     <Container className="my-5">
       <Row className="mb-5">
-        <Col className="mt-4">
-          <h2 className="text-center">Contact Us</h2>
+        <Col>
+          <h1 className="text-center">Contact Us</h1>
         </Col>
       </Row>
       <Row className="justify-content-center">
@@ -34,10 +34,9 @@ function ContactUs() {
         </Col>
       </Row>
       <Row className="justify-content-center mt-4">
-        <Col md={6} className="text-center">
-          <p><strong>Email:</strong> info@accessiblehealthcare.com</p>
-          <p><strong>Phone:</strong> +1 (123) 456-7890</p>
-          <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+        <Col md={7} className="text-center">
+          <p><strong>Email:</strong> freelancer.codegeeks@gmail.com</p>
+          <p><strong>Address:</strong> Pune,Maharashtra</p>
         </Col>
       </Row>
     </Container>

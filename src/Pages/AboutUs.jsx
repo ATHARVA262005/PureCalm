@@ -37,7 +37,7 @@ function AboutUs() {
         <Col md={3} className="text-center">
           <Image src="/atharva.jpeg" roundedCircle className="mb-3 img-fluid" style={{ maxWidth: '150px', maxHeight: '150px' }} />
           <h5>Atharav Ralegankar</h5>
-          <p>ounder</p>
+          <p>Founder</p>
         </Col>
       </Row>
     </Container>
