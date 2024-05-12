@@ -1,4 +1,5 @@
-import { Nav, NavLink } from 'react-bootstrap';
+import { Nav} from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const MyFooter = () => {
   return (
