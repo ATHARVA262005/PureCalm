@@ -8,7 +8,7 @@ function Therepy() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>My Page Title</title>
+        <title>Therepies</title>
         <meta name="description" content="This is the meta description for My Page." />
       </Helmet>
       
