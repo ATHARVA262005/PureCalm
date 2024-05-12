@@ -21,15 +21,21 @@ function Navb() {
       <Navbar.Toggle aria-controls="navbarsExample03" />
       <Navbar.Collapse id="navbarsExample03">
         <Nav className="me-auto mb-2 mb-sm-0">
-          <NavLink to={"/home"}>Home</NavLink>
+          <Nav.Link><NavLink to={"/home"}>Home</NavLink></Nav.Link>
           <NavDropdown title="Therepies" to={"/Therepies"} id="basic-nav-dropdown">
             <NavDropdown.Item to={"/yoga"}>Yoga</NavDropdown.Item>
             <NavDropdown.Item to={"/spiritual"}>Spiritual</NavDropdown.Item>
             <NavDropdown.Item to={"/music"}>Music</NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link>
           <NavLink to={"/community"} >Community</NavLink>
+          </Nav.Link>
+          <Nav.Link>
           <NavLink to={"/about"}>About Us</NavLink>
+          </Nav.Link>
+          <Nav.Link>
           <NavLink to={"/contact"}>Contact Us</NavLink>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
       <Link to={"/profile"}>
