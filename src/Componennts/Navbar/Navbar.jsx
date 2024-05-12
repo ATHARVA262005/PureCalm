@@ -23,9 +23,9 @@ function Navb() {
         <Nav className="me-auto mb-2 mb-sm-0">
           <Nav.Link><NavLink className={"navlink"} to={"/home"}>Home</NavLink></Nav.Link>
           <NavDropdown className={"navlink"}  title="Therepies" to={"/Therepies"} id="basic-nav-dropdown">
-            <NavDropdown.Item><NavLink className={"navlink"} to={"/yoga"}>Yoga</NavLink></NavDropdown.Item>
-            <NavDropdown.Item><NavLink className={"navlink"} to={"/spiritual"}>Spiritual</NavLink></NavDropdown.Item>
-            <NavDropdown.Item><NavLink className={"navlink"} to={"/music"}>Music</NavLink></NavDropdown.Item>
+            <NavDropdown.Item><NavLink className={"navlinkDropdown"} to={"/yoga"}>Yoga</NavLink></NavDropdown.Item>
+            <NavDropdown.Item><NavLink className={"navlinkDropdown"} to={"/spiritual"}>Spiritual</NavLink></NavDropdown.Item>
+            <NavDropdown.Item><NavLink className={"navlinkDropdown"} to={"/music"}>Music</NavLink></NavDropdown.Item>
           </NavDropdown>
           <Nav.Link><NavLink className={"navlink"} to={"/community"} >Community</NavLink></Nav.Link>
           <Nav.Link><NavLink className={"navlink"} to={"/about"}>About Us</NavLink></Nav.Link>
