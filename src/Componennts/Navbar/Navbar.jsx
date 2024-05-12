@@ -1,6 +1,6 @@
 import "./navbar.css"
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 function Navb() {
@@ -27,29 +27,11 @@ function Navb() {
             <NavDropdown.Item><NavLink className={"navlink"} to={"/spiritual"}>Spiritual</NavLink></NavDropdown.Item>
             <NavDropdown.Item><NavLink className={"navlink"} to={"/music"}>Music</NavLink></NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link>
-          <NavLink className={"navlink"} to={"/community"} >Community</NavLink>
-          </Nav.Link>
-          <Nav.Link>
-          <NavLink className={"navlink"} to={"/about"}>About Us</NavLink>
-          </Nav.Link>
-          <Nav.Link>
-          <NavLink className={"navlink"} to={"/contact"}>Contact Us</NavLink>
-          </Nav.Link>
+          <Nav.Link><NavLink className={"navlink"} to={"/community"} >Community</NavLink></Nav.Link>
+          <Nav.Link><NavLink className={"navlink"} to={"/about"}>About Us</NavLink></Nav.Link>
+          <Nav.Link><NavLink className={"navlink"} to={"/contact"}>Contact Us</NavLink></Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <Link to={"/profile"}>
-      <Navbar.Text className="mx-3">
-          <img
-            alt="Profile"
-            src="/PureCalm.jpg"
-            width="40"
-            height="40"
-            style={{ borderRadius: '50%', cursor: 'pointer' }}
-          />
-        </Navbar.Text>
-        </Link>
-        
     </Navbar>
     </div>
   )
