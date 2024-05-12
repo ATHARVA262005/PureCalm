@@ -27,14 +27,14 @@ function Navb() {
             <NavDropdown.Item><NavLink className={"navlink"} to={"/spiritual"}>Spiritual</NavLink></NavDropdown.Item>
             <NavDropdown.Item><NavLink className={"navlink"} to={"/music"}>Music</NavLink></NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link className={"navlink"} >
-          <NavLink  to={"/community"} >Community</NavLink>
+          <Nav.Link>
+          <NavLink className={"navlink"} to={"/community"} >Community</NavLink>
           </Nav.Link>
-          <Nav.Link className={"navlink"} >
-          <NavLink to={"/about"}>About Us</NavLink>
+          <Nav.Link>
+          <NavLink className={"navlink"} to={"/about"}>About Us</NavLink>
           </Nav.Link>
-          <Nav.Link className={"navlink"} >
-          <NavLink to={"/contact"}>Contact Us</NavLink>
+          <Nav.Link>
+          <NavLink className={"navlink"} to={"/contact"}>Contact Us</NavLink>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
