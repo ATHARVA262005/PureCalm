@@ -1,6 +1,6 @@
 import "./navbar.css"
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 function Navb() {
@@ -21,15 +21,15 @@ function Navb() {
       <Navbar.Toggle aria-controls="navbarsExample03" />
       <Navbar.Collapse id="navbarsExample03">
         <Nav className="me-auto mb-2 mb-sm-0">
-          <Nav.Link to={"/home"}>Home</Nav.Link>
+          <NavLink to={"/home"}>Home</NavLink>
           <NavDropdown title="Therepies" to={"/Therepies"} id="basic-nav-dropdown">
             <NavDropdown.Item to={"/yoga"}>Yoga</NavDropdown.Item>
             <NavDropdown.Item to={"/spiritual"}>Spiritual</NavDropdown.Item>
             <NavDropdown.Item to={"/music"}>Music</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link to={"/community"} >Community</Nav.Link>
-          <Nav.Link to={"/about"}>About Us</Nav.Link>
-          <Nav.Link to={"/contact"}>Contact Us</Nav.Link>
+          <NavLink to={"/community"} >Community</NavLink>
+          <NavLink to={"/about"}>About Us</NavLink>
+          <NavLink to={"/contact"}>Contact Us</NavLink>
         </Nav>
       </Navbar.Collapse>
       <Link to={"/profile"}>
