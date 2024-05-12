@@ -15,7 +15,7 @@ function ContactUs() {
     <Navb />
     <Container className="my-5">
       <Row className="mb-5">
-        <Col>
+        <Col className="mt-4">
           <h1 className="text-center">Contact Us</h1>
         </Col>
       </Row>
