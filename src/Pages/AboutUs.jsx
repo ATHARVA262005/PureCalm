@@ -14,9 +14,9 @@ function AboutUs() {
 
     <Navb />
     <Container className="my-5 pt-5 ">
-      <Row className="mb-5">
+      <Row className="mb-2">
         <Col>
-          <h2 className="text-center " style={{fontSize:'60px'}}>About Us</h2>
+          <h1 className="text-center ">About Us</h1>
         </Col>
       </Row>
       <Row className="justify-content-center">
@@ -30,29 +30,14 @@ function AboutUs() {
       </Row>
       <Row className="mt-5">
         <Col className="text-center">
-          <h4>Meet Our Team</h4>
+          <h4>Meet Our Founder</h4>
         </Col>
       </Row>
       <Row className="justify-content-center mt-4">
         <Col md={3} className="text-center">
           <Image src="/atharva.jpeg" roundedCircle className="mb-3 img-fluid" style={{ maxWidth: '150px', maxHeight: '150px' }} />
           <h5>Atharav Ralegankar</h5>
-          <p>Developer</p>
-        </Col>
-        <Col md={3} className="text-center">
-          <Image src="/kiran.jpeg" roundedCircle className="mb-3 img-fluid" style={{ maxWidth: '150px', maxHeight: '150px' }} />
-          <h5>Kiran Rokade</h5>
-          <p>Developer</p>
-        </Col>
-        <Col md={3} className="text-center">
-          <Image src="/sanket.jpeg" roundedCircle className="mb-3 img-fluid" style={{ maxWidth: '150px', maxHeight: '150px' }} />
-          <h5>Sanket Pawar</h5>
-          <p>Developer</p>
-        </Col>
-        <Col md={3} className="text-center">
-          <Image src="/dev_prathamesh.jpeg" roundedCircle className="mb-3 img-fluid" style={{ maxWidth: '150px', maxHeight: '150px' }} />
-          <h5>Prathamesh Pichkate</h5>
-          <p>Developer</p>
+          <p>ounder</p>
         </Col>
       </Row>
     </Container>
