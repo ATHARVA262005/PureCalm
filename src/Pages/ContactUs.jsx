@@ -15,7 +15,7 @@ function ContactUs() {
     <Navb />
     <Container className="my-5">
       <Row className="mt-5">
-        <Col style={{marginTop:"600"}}>
+        <Col>
           <h1 className="text-center">Contact Us</h1>
         </Col>
       </Row>
